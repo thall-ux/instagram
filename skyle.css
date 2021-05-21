@@ -1,6 +1,7 @@
+
 *{
-    padding: 9;
-    margin: 8;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
     text-decoration: none;
     font-family: sans-serif;
@@ -8,33 +9,25 @@
 }
 body{
     width: 100%;
-    min-width: 100vh;
-    background-color: rgb(red, green, blue);
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
     margin: 0;
     padding: 0;
-    display:flex;
+    display: flex;
     justify-content: center;
 }
-.Instagram-wrapper{
+.instagram-wrapper{
     display: flex;
     align-items: center;
+    justify-content: center;
     justify-content: start;
-    width: 68%;
-    height: 100vh;
-
 }
-
-.instagram-phone{
-    display: flex;
-    align-items: center;
-    justify-self: center;
-    width:50%;
-
+.instagram-phone {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 50%;
 }
-.instagram-phone img {
+.instagram-phone img{
     height: 50rem;
 }
-
-
-
-  
